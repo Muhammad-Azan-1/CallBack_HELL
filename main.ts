@@ -4,20 +4,20 @@
 
 //for example:
 
-// let hello = () =>{
+let hello = () =>{
 
-//     console.log("Hello World!");
-// }
+    console.log("Hello World!");
+}
 
-// setTimeout(hello, 3000); // so setTimeout executes the hello function after a delay of 3000 mili seconds  =  3 seconds
+setTimeout(hello, 3000); // so setTimeout executes the hello function after a delay of 3000 mili seconds  =  3 seconds
 
 
 // we can also write it out like
 
-// setTimeout(() =>{
+setTimeout(() =>{
 
-//     console.log("Hello World!");
-// },5000)
+    console.log("Hello World!");
+},5000)
 
 
 // Callback Hell
